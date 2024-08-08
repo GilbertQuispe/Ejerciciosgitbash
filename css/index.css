@@ -1,11 +1,12 @@
 :root{
     --1ercolor:hsl(214, 84%, 64%);
     --2docolor:hsl(240, 91%, 22%);
+    --3ercolor:#c4d9f1;
 }
 *{
     box-sizing: border-box;
     margin: 0;
-    padding: 0;    
+    padding: 0;
 }
 html{
     font-size: 62.5%;
@@ -18,26 +19,27 @@ html{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: aliceblue;
-    font-size: 1.3rem;
+    background-color: Var(--3ercolor);
+    font-size: 1.3rem;    
 }
 .container-section{
     width: 800px;
     padding: 10px 10px;
     display: grid;
     align-items: center;
+    box-shadow: 2px 1px 16px 6px var(--2docolor);
 }
-.container__header{    
+.container__header{
     height: 10%;
-    background-color: var(--1ercolor);          
+    background-color: var(--1ercolor);    
 }
-.container__main{    
+.container__main{
     height: 70%;
     background-color: white;
     color: var(--2docolor);
     align-items:start;
 }
-.container__footer{    
+.container__footer{
     height: 5%;
-    background-color: var(--1ercolor);    
+    background-color: var(--1ercolor);
 }
