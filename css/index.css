@@ -27,11 +27,17 @@ html{
     padding: 10px 10px;
     display: grid;
     align-items: center;
-    box-shadow: 2px 1px 16px 6px var(--2docolor);
+    /* box-shadow: 2px 1px 16px 6px var(--2docolor); */
 }
 .container__header{
     height: 10%;
     background-color: var(--1ercolor);    
+    display: flex;
+    color: white;
+}
+.container__header img{
+    width: 15%;
+    height: 100%;
 }
 .container__main{
     height: 70%;
@@ -42,4 +48,5 @@ html{
 .container__footer{
     height: 5%;
     background-color: var(--1ercolor);
+    color:white;
 }
