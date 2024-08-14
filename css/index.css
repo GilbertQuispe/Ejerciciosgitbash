@@ -22,25 +22,36 @@ html{
     background-color: Var(--3ercolor);
     font-size: 1.3rem;    
 }
+.container__div{
+    width: 800px;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 1px 16px 6px black;    
+    border-radius: 1rem;
+}
 .container-section{
     width: 800px;
     padding: 10px 10px;
     display: grid;
     align-items: center;
-    /* box-shadow: 2px 1px 16px 6px var(--2docolor); */
+    
 }
 .container__header{
     height: 10%;
     background-color: var(--1ercolor);    
     display: flex;
     color: white;
+    border-radius: 1rem 1rem 0 0;
 }
 .container__header img{
     width: 15%;
     height: 100%;
 }
 .container__main{
-    height: 70%;
+    height: 85%;
     background-color: white;
     color: var(--2docolor);
     align-items:start;
@@ -49,4 +60,5 @@ html{
     height: 5%;
     background-color: var(--1ercolor);
     color:white;
+    border-radius: 0 0 1rem 1rem;
 }
